@@ -6,7 +6,7 @@ The tests will be written in [Vegeta](https://github.com/tsenart/vegeta/blob/mas
 
 The key vegeta features I enjoy are:
 
-A simple and composable command line interface
+- A simple easy to use, command line interface
 A config file format which trivially allows setting custom headers, which is key to working with pre-production services, and allows testing multiple endpoints simultaneously
 The ability to run multiple tests in parallel across different hosts, increasing the total test volume possible
 It generates a constant request rate, a feature found in few other tools, but also a key to finding true operational limitations.
