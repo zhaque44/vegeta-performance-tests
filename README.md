@@ -1,4 +1,4 @@
-# vegeta-performance-tests
+# Vegeta Performance Tests
 
 ### Vegeta
 
