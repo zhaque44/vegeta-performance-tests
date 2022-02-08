@@ -7,11 +7,11 @@
 The key vegeta features I enjoy are:
 
 - A simple easy to use, command line interface
-A config file format which trivially allows setting custom headers, which is key to working with pre-production services, and allows testing multiple endpoints simultaneously
-The ability to run multiple tests in parallel across different hosts, increasing the total test volume possible
-It generates a constant request rate, a feature found in few other tools, but also a key to finding true operational limitations.
-Because it’s Go, it’s compiled to a single binary, making it trivial to drop into machines if you’re doing scale out or remote node testing.
-It also has an excellent library interface, allowing it to be a component of custom tooling.
+- A config file format which trivially allows setting custom headers, which is key to working with pre-production services, and allows testing multiple endpoints simultaneously
+- The ability to run multiple tests in parallel across different hosts, increasing the total test volume possible
+- It generates a constant request rate, a feature found in few other tools, but also a key to finding true operational limitations.
+- Since it’s written in Go, it’s compiled to a single binary, making it trivial to drop into machines if you’re doing scale out or remote node testing.
+- It also has an excellent library interface, allowing it to be a component of custom tooling.
 
 ## Install
 
